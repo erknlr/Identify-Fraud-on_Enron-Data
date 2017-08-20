@@ -34,11 +34,6 @@ Let's first start with analyzing the data.
 
 
 ```python
-
-```
-
-
-```python
 # Check number of people and attributes in the dataset
 print 'Number of people:', len(data_dict)
 
@@ -141,7 +136,7 @@ matplotlib.pyplot.show()
 
 
 
-![png](output_12_1.png)
+![png](Graphs/chart_w_outlier.png)
 
 
 So, we have one datapoint that is most likely a outlier. Let's investigate further:
@@ -450,7 +445,7 @@ matplotlib.pyplot.show()
 
 
 
-![png](output_26_1.png)
+![png](Graphs/chart_wo_outlier.png)
 
 
 Now, it looks more reasonable.

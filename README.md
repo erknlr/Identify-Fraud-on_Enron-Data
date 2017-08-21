@@ -865,5 +865,5 @@ So, moving from 10 to 3 features, I managed to improve my precision but lost on 
 ## Evaluation
 
 In order to evaluate algorithms, I used recall and precision as my 2 metrics. For Naive Bayes I then got 49% precision and 34% recall. 
-Precision shows the predictive capability of an algorithm. It is calculated as true positive / (true positive + false positive). In my case, it would mean from 100 people who are predicted to be pois, 45 of them will be truly pois. 
-Recall on the other hand shows the capability of an algorithm to find pois. It is calculated as true positive / (true positive + false negative) . With 32% recall, my algorithm finds 32% of the pois in its prediction.
+Precision shows the predictive capability of an algorithm. It is calculated as true positive / (true positive + false positive). In my case, it would mean from 100 people who are predicted to be pois, 49 of them will be truly pois. 
+Recall on the other hand shows the capability of an algorithm to find pois. It is calculated as true positive / (true positive + false negative) . With 34% recall, my algorithm finds 34% of the pois in its prediction.
